@@ -13,3 +13,6 @@ def to_sentence(s) -> str:
         return s
     else:
         return s + '.'
+
+def difference (a, b) -> int:
+    return a-b

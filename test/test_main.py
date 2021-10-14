@@ -12,3 +12,6 @@ def test_to_sentence():
     assert main.to_sentence('apple') == 'Apple.'
     assert main.to_sentence('Apple trees') == 'Apple trees.'
     assert main.to_sentence('Apple trees.') == 'Apple trees.'
+
+def test_difference ():
+    assert main.difference(2,1)==1
